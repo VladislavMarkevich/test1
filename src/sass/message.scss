@@ -1,0 +1,20 @@
+.main-message {
+  position: fixed !important;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 !important;
+  width: 100% !important;
+  max-width: 500px !important;
+}
+
+.main-message__close-button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: black;
+  fill: black !important;
+  cursor: pointer;
+}

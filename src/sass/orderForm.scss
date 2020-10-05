@@ -1,0 +1,20 @@
+.order-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
+  grid-template-rows: minmax(0, 1fr) minmax(0, auto);
+  max-height: 100%;
+  grid-gap: 20px;
+}
+
+$button-color: #ff5100;
+
+.btn {
+  display: block !important;
+  width: 100% !important;
+
+  font-size: 23px !important;
+  font-weight: bold !important;
+  background-color: $button-color !important;
+  border-color: $button-color !important;
+}

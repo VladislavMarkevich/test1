@@ -1,0 +1,33 @@
+$combo-input-right-block-color: #ced4da;
+
+.combo-input {
+  position: relative;
+  .combo-input__select {
+    padding: 6px 39px 6px 12px !important;
+  }
+
+  .combo-input__right-block {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 40px;
+    height: 22px;
+    border-left: 1px solid $combo-input-right-block-color;
+    pointer-events: none;
+  }
+
+  .combo-input__arrow {
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: calc(50% - 1px);
+    transform: translate(-50%, -50%) rotate(45deg);
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+
+    padding: 3px;
+
+    border: solid $combo-input-right-block-color;
+    border-width: 0 3px 3px 0;
+  }
+}

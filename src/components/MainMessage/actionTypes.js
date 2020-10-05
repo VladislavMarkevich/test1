@@ -1,0 +1,3 @@
+//@flow
+export const MAIN_MESSAGE_OPEN = "MAIN_MESSAGE_OPEN";
+export const MAIN_MESSAGE_CLOSE = "MAIN_MESSAGE_CLOSE";

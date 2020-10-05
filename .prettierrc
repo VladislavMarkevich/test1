@@ -1,0 +1,11 @@
+{
+  "printWidth": 120,
+  "bracketSpacing": false,
+  "trailingComma": "none",
+  "endOfLine": "crlf",
+  "arrowParens": "avoid",
+  "singleQuote": false,
+  "packageManager": "yarn",
+  "tabWidth": 2,
+  "useTabs": false
+}
